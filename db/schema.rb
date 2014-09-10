@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 20140908164317) do
   create_table "transactions", force: true do |t|
     t.string  "description"
     t.integer "amount"
+    t.date    "date"
   end
 
 end
